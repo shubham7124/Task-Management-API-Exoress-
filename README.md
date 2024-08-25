@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Management API README</title>
-</head>
-<body>
+
     <h1>Task Management API</h1>
     <p>This is a RESTful API for managing tasks, supporting user registration, authentication, task assignment, and filtering/search functionalities. The API is built using Node.js, Express.js, and MySQL.</p>
     
@@ -61,5 +54,4 @@ JWT_SECRET=yourjwtsecret
         <li><strong>Filter Tasks:</strong> <code>GET /api/tasks?status=Todo&priority=High</code></li>
         <li><strong>Search Tasks:</strong> <code>GET /api/tasks?search=keyword</code></li>
     </ul>
-</body>
-</html>
+
